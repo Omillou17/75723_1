@@ -183,21 +183,5 @@ fetch("data.json")
 .then(data => loadCVData(data))
 .catch(error => {
 
-    /* якщо fetch не працює */
-    const fallbackData = {
-        skills: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "SQL",
-            "Linux"
-        ],
-        projects: [
-            "Strona CV",
-            "Baza danych SQL Server",
-            "Analiza danych Excel"
-        ]
-    };
-
     loadCVData(fallbackData);
 });
