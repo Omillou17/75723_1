@@ -1,0 +1,15 @@
+{
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SQL",
+    "Linux"
+  ],
+
+  "projects": [
+    "Strona CV",
+    "Baza danych SQL Server",
+    "Analiza danych Excel"
+  ]
+}
